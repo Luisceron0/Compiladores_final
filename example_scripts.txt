@@ -1,0 +1,280 @@
+// Script 1: Empleados mayores de 25 años
+load "empleados.csv";
+filter column "edad" > 25;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+aggregate sum column "dias_laborados";
+print;
+
+// Script 2: Empleados del departamento de Tecnología con salario superior a 3000
+load "empleados.csv";
+filter column "departamento" == "Tecnología";
+filter column "salario" > 3000;
+aggregate count column "id_empleado";
+aggregate average column "edad";
+print;
+
+// Script 3: Empleados con menos de 2 años de antigüedad
+load "empleados.csv";
+filter column "dias_laborados" < 730;
+aggregate count column "id_empleado";
+aggregate average column "edad";
+sort column "fecha_ingreso" desc;
+print;
+
+// Script 4: Directores con salario alto
+load "empleados.csv";
+filter column "cargo" == "Director de Ventas";
+filter column "salario" > 4000;
+aggregate average column "salario";
+print;
+
+// Script 5: Empleados jóvenes en Recursos Humanos
+load "empleados.csv";
+filter column "departamento" == "Recursos Humanos";
+filter column "edad" < 30;
+aggregate count column "id_empleado";
+print;
+
+// Script 6: Empleados con mayor antigüedad en la empresa
+load "empleados.csv";
+filter column "dias_laborados" > 2500;
+sort column "dias_laborados" desc;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+print;
+
+// Script 7: Salario promedio por departamento
+load "empleados.csv";
+filter column "departamento" == "Finanzas";
+aggregate average column "salario";
+print;
+
+// Script 8: Empleados con salario dentro de un rango
+load "empleados.csv";
+filter column "salario" between 3000 and 4000;
+aggregate count column "id_empleado";
+aggregate average column "edad";
+print;
+
+// Script 9: Analistas con edad entre 25 y 35 años
+load "empleados.csv";
+filter column "cargo" == "Analista Financiero";
+filter column "edad" between 25 and 35;
+aggregate count column "id_empleado";
+print;
+
+// Script 10: Empleados de Ventas con alto salario
+load "empleados.csv";
+filter column "departamento" == "Ventas";
+filter column "salario" > 3500;
+aggregate count column "id_empleado";
+aggregate average column "dias_laborados";
+print;
+
+// Script 11: Gerentes con más de 5 años en la empresa
+load "empleados.csv";
+filter column "cargo" == "Gerente de Marketing";
+filter column "dias_laborados" > 1825;
+aggregate count column "id_empleado";
+aggregate average column "edad";
+print;
+
+// Script 12: Empleados de TI con salario bajo
+load "empleados.csv";
+filter column "departamento" == "Tecnología";
+filter column "salario" < 2500;
+aggregate count column "id_empleado";
+print;
+
+// Script 13: Empleados seniors (mayores de 50)
+load "empleados.csv";
+filter column "edad" > 50;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+sort column "edad" desc;
+print;
+
+// Script 14: Empleados recién contratados (menos de 6 meses)
+load "empleados.csv";
+filter column "dias_laborados" < 180;
+aggregate count column "id_empleado";
+sort column "fecha_ingreso" desc;
+print;
+
+// Script 15: Empleados con mayor salario
+load "empleados.csv";
+sort column "salario" desc;
+aggregate average column "salario";
+print;
+
+// Script 16: Empleados en departamento Legal con menos de 40 años
+load "empleados.csv";
+filter column "departamento" == "Legal";
+filter column "edad" < 40;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+print;
+
+// Script 17: Administradores con más de 3 años en la empresa
+load "empleados.csv";
+filter column "departamento" == "Administración";
+filter column "dias_laborados" > 1095;
+aggregate count column "id_empleado";
+print;
+
+// Script 18: Empleados con sueldos altos y poca antigüedad
+load "empleados.csv";
+filter column "salario" > 4000;
+filter column "dias_laborados" < 365;
+aggregate count column "id_empleado";
+print;
+
+// Script 19: Desarrolladores junior (jóvenes)
+load "empleados.csv";
+filter column "cargo" == "Desarrollador";
+filter column "edad" < 28;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+print;
+
+// Script 20: Empleados con correo específico
+load "empleados.csv";
+filter column "correo" == "laura.gonzalez@empresa.com";
+print;
+
+// Script 21: Contador de empleados por rango de edad
+load "empleados.csv";
+filter column "edad" between 30 and 40;
+aggregate count column "id_empleado";
+print;
+
+// Script 22: Empleados que ganan menos del promedio
+load "empleados.csv";
+filter column "salario" < 3000;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+print;
+
+// Script 23: Empleados con mayor experiencia en Marketing
+load "empleados.csv";
+filter column "departamento" == "Marketing";
+sort column "dias_laborados" desc;
+aggregate average column "dias_laborados";
+print;
+
+// Script 24: Directores con sueldos superiores a 5000
+load "empleados.csv";
+filter column "cargo" == "Director Financiero";
+filter column "salario" > 5000;
+aggregate count column "id_empleado";
+print;
+
+// Script 25: Empleados con nombres que contienen "Ana"
+load "empleados.csv";
+filter column "nombre" == "Ana González";
+aggregate count column "id_empleado";
+print;
+
+// Script 26: Empleados jóvenes con altos salarios
+load "empleados.csv";
+filter column "edad" < 30;
+filter column "salario" > 3500;
+aggregate count column "id_empleado";
+print;
+
+// Script 27: Empleados con más de 7 años en la empresa
+load "empleados.csv";
+filter column "dias_laborados" > 2555;
+aggregate count column "id_empleado";
+aggregate average column "salario";
+print;
+
+// Script 28: Empleados de operaciones con salarios medios
+load "empleados.csv";
+filter column "departamento" == "Operaciones";
+filter column "salario" between 2500 and 3500;
+aggregate count column "id_empleado";
+print;
+
+// Script 29: Abogados con menos de 5 años en la empresa
+load "empleados.csv";
+filter column "cargo" == "Abogado";
+filter column "dias_laborados" < 1825;
+aggregate count column "id_empleado";
+print;
+
+// Script 30: Empleados próximos a jubilarse (mayores de 60)
+load "empleados.csv";
+filter column "edad" > 60;
+aggregate count column "id_empleado";
+aggregate average column "dias_laborados";
+print;
+
+// Script 31: Asistentes con menos de 2 años en la empresa
+load "empleados.csv";
+filter column "cargo" == "Asistente Administrativo";
+filter column "dias_laborados" < 730;
+aggregate count column "id_empleado";
+print;
+
+// Script 32: Empleados con perfil específico de contacto
+load "empleados.csv";
+filter column "telefono" == "+57 320 1234567";
+print;
+
+// Script 33: Empleados de finanzas con alto rendimiento (salario)
+load "empleados.csv";
+filter column "departamento" == "Finanzas";
+filter column "salario" > 4000;
+aggregate count column "id_empleado";
+aggregate average column "edad";
+print;
+
+// Script 34: Empleados de ventas ordenados por antigüedad
+load "empleados.csv";
+filter column "departamento" == "Ventas";
+sort column "dias_laborados" desc;
+aggregate count column "id_empleado";
+print;
+
+// Script 35: Reclutadores con experiencia media
+load "empleados.csv";
+filter column "cargo" == "Reclutador";
+filter column "dias_laborados" between 730 and 1825;
+aggregate count column "id_empleado";
+print;
+
+// Script 36: Empleados con salario exacto
+load "empleados.csv";
+filter column "salario" == 3500;
+aggregate count column "id_empleado";
+print;
+
+// Script 37: Empleados de TI ordenados por salario
+load "empleados.csv";
+filter column "departamento" == "Tecnología";
+sort column "salario" desc;
+aggregate average column "salario";
+print;
+
+// Script 38: Empleados contratados en fechas específicas
+load "empleados.csv";
+filter column "fecha_ingreso" == "2020-05-15";
+aggregate count column "id_empleado";
+print;
+
+// Script 39: Empleados con rangos salariales específicos por cargo
+load "empleados.csv";
+filter column "cargo" == "Ingeniero de Software";
+filter column "salario" between 4000 and 5000;
+aggregate count column "id_empleado";
+print;
+
+// Script 40: Análisis general de la empresa
+load "empleados.csv";
+aggregate count column "id_empleado";
+aggregate average column "edad";
+aggregate average column "salario";
+aggregate average column "dias_laborados";
+print;
