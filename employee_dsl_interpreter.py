@@ -144,7 +144,8 @@ class EmployeeDSLInterpreter(EmployeeDSLVisitor):
                 'record_count': 0
             }
         filtered_data = self.data.copy()
-        for filter_op in self.filters:
+        print(f"DEBUG: Initial data count: {len(filtered_data)}")
+        for i, filter_op in enumerate(self.filters):
             column = filter_op['column']
             operator = filter_op['operator']
             value = filter_op['value']
@@ -163,11 +164,13 @@ class EmployeeDSLInterpreter(EmployeeDSLVisitor):
             elif operator == 'between':
                 min_val, max_val = value
                 filtered_data = filtered_data[(filtered_data[column] >= min_val) & (filtered_data[column] <= max_val)]
+            print(f"DEBUG: After filter {i+1} ({column} {operator} {value}): {len(filtered_data)} records")
         if self.sorting:
             filtered_data = filtered_data.sort_values(
                 by=self.sorting['column'],
                 ascending=self.sorting['ascending']
             )
+            print(f"DEBUG: After sorting by {self.sorting['column']} ascending={self.sorting['ascending']}")
         aggregation_results = {}
         for agg in self.aggregations:
             func = agg.get('function')
@@ -183,6 +186,7 @@ class EmployeeDSLInterpreter(EmployeeDSLVisitor):
             'aggregations': aggregation_results,
             'record_count': len(filtered_data)
         }
+        print(f"DEBUG: Final result record count: {len(filtered_data)}")
         return result
 
 def parse_and_interpret(input_string):
