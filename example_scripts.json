@@ -1,0 +1,202 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Empleados mayores de 25 años",
+    "contenido": "load \"empleados.csv\";\nfilter column \"edad\" > 25;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\naggregate sum column \"dias_laborados\";\nprint;"
+  },
+  {
+    "numero": 2,
+    "titulo": "Empleados del departamento de Tecnología con salario superior a 3000",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Tecnología\";\nfilter column \"salario\" > 3000;\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\nprint;"
+  },
+  {
+    "numero": 3,
+    "titulo": "Empleados con menos de 2 años de antigüedad",
+    "contenido": "load \"empleados.csv\";\nfilter column \"dias_laborados\" < 730;\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\nsort column \"fecha_ingreso\" desc;\nprint;"
+  },
+  {
+    "numero": 4,
+    "titulo": "Directores con salario alto",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Director de Ventas\";\nfilter column \"salario\" > 4000;\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 5,
+    "titulo": "Empleados jóvenes en Recursos Humanos",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Recursos Humanos\";\nfilter column \"edad\" < 30;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 6,
+    "titulo": "Empleados con mayor antigüedad en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"dias_laborados\" > 2500;\nsort column \"dias_laborados\" desc;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 7,
+    "titulo": "Salario promedio por departamento",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Finanzas\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 8,
+    "titulo": "Empleados con salario dentro de un rango",
+    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" between 3000 and 4000;\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\nprint;"
+  },
+  {
+    "numero": 9,
+    "titulo": "Analistas con edad entre 25 y 35 años",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Analista Financiero\";\nfilter column \"edad\" between 25 and 35;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 10,
+    "titulo": "Empleados de Ventas con alto salario",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Ventas\";\nfilter column \"salario\" > 3500;\naggregate count column \"id_empleado\";\naggregate average column \"dias_laborados\";\nprint;"
+  },
+  {
+    "numero": 11,
+    "titulo": "Gerentes con más de 5 años en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Gerente de Marketing\";\nfilter column \"dias_laborados\" > 1825;\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\nprint;"
+  },
+  {
+    "numero": 12,
+    "titulo": "Empleados de TI con salario bajo",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Tecnología\";\nfilter column \"salario\" < 2500;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 13,
+    "titulo": "Empleados seniors (mayores de 50)",
+    "contenido": "load \"empleados.csv\";\nfilter column \"edad\" > 50;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nsort column \"edad\" desc;\nprint;"
+  },
+  {
+    "numero": 14,
+    "titulo": "Empleados recién contratados (menos de 6 meses)",
+    "contenido": "load \"empleados.csv\";\nfilter column \"dias_laborados\" < 180;\naggregate count column \"id_empleado\";\nsort column \"fecha_ingreso\" desc;\nprint;"
+  },
+  {
+    "numero": 15,
+    "titulo": "Empleados con mayor salario",
+    "contenido": "load \"empleados.csv\";\nsort column \"salario\" desc;\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 16,
+    "titulo": "Empleados en departamento Legal con menos de 40 años",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Legal\";\nfilter column \"edad\" < 40;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 17,
+    "titulo": "Administradores con más de 3 años en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Administración\";\nfilter column \"dias_laborados\" > 1095;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 18,
+    "titulo": "Empleados con sueldos altos y poca antigüedad",
+    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" > 4000;\nfilter column \"dias_laborados\" < 365;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 19,
+    "titulo": "Desarrolladores junior (jóvenes)",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Desarrollador\";\nfilter column \"edad\" < 28;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 20,
+    "titulo": "Empleados con correo específico",
+    "contenido": "load \"empleados.csv\";\nfilter column \"correo\" == \"laura.gonzalez@empresa.com\";\nprint;"
+  },
+  {
+    "numero": 21,
+    "titulo": "Contador de empleados por rango de edad",
+    "contenido": "load \"empleados.csv\";\nfilter column \"edad\" between 30 and 40;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 22,
+    "titulo": "Empleados que ganan menos del promedio",
+    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" < 3000;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 23,
+    "titulo": "Empleados con mayor experiencia en Marketing",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Marketing\";\nsort column \"dias_laborados\" desc;\naggregate average column \"dias_laborados\";\nprint;"
+  },
+  {
+    "numero": 24,
+    "titulo": "Directores con sueldos superiores a 5000",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Director Financiero\";\nfilter column \"salario\" > 5000;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 25,
+    "titulo": "Empleados con nombres que contienen \"Ana\"",
+    "contenido": "load \"empleados.csv\";\nfilter column \"nombre\" == \"Ana González\";\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 26,
+    "titulo": "Empleados jóvenes con altos salarios",
+    "contenido": "load \"empleados.csv\";\nfilter column \"edad\" < 30;\nfilter column \"salario\" > 3500;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 27,
+    "titulo": "Empleados con más de 7 años en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"dias_laborados\" > 2555;\naggregate count column \"id_empleado\";\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 28,
+    "titulo": "Empleados de operaciones con salarios medios",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Operaciones\";\nfilter column \"salario\" between 2500 and 3500;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 29,
+    "titulo": "Abogados con menos de 5 años en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Abogado\";\nfilter column \"dias_laborados\" < 1825;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 30,
+    "titulo": "Empleados próximos a jubilarse (mayores de 60)",
+    "contenido": "load \"empleados.csv\";\nfilter column \"edad\" > 60;\naggregate count column \"id_empleado\";\naggregate average column \"dias_laborados\";\nprint;"
+  },
+  {
+    "numero": 31,
+    "titulo": "Asistentes con menos de 2 años en la empresa",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Asistente Administrativo\";\nfilter column \"dias_laborados\" < 730;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 32,
+    "titulo": "Empleados con perfil específico de contacto",
+    "contenido": "load \"empleados.csv\";\nfilter column \"telefono\" == \"+57 320 1234567\";\nprint;"
+  },
+  {
+    "numero": 33,
+    "titulo": "Empleados de finanzas con alto rendimiento (salario)",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Finanzas\";\nfilter column \"salario\" > 4000;\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\nprint;"
+  },
+  {
+    "numero": 34,
+    "titulo": "Empleados de ventas ordenados por antigüedad",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Ventas\";\nsort column \"dias_laborados\" desc;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 35,
+    "titulo": "Reclutadores con experiencia media",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Reclutador\";\nfilter column \"dias_laborados\" between 730 and 1825;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 36,
+    "titulo": "Empleados con salario exacto",
+    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" == 3500;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 37,
+    "titulo": "Empleados de TI ordenados por salario",
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Tecnología\";\nsort column \"salario\" desc;\naggregate average column \"salario\";\nprint;"
+  },
+  {
+    "numero": 38,
+    "titulo": "Empleados contratados en fechas específicas",
+    "contenido": "load \"empleados.csv\";\nfilter column \"fecha_ingreso\" == \"2020-05-15\";\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 39,
+    "titulo": "Empleados con rangos salariales específicos por cargo",
+    "contenido": "load \"empleados.csv\";\nfilter column \"cargo\" == \"Ingeniero de Software\";\nfilter column \"salario\" between 4000 and 5000;\naggregate count column \"id_empleado\";\nprint;"
+  },
+  {
+    "numero": 40,
+    "titulo": "Análisis general de la empresa",
+    "contenido": "load \"empleados.csv\";\naggregate count column \"id_empleado\";\naggregate average column \"edad\";\naggregate average column \"salario\";\naggregate average column \"dias_laborados\";\nprint;"
+  }
+]

@@ -82,40 +82,29 @@ def run_example_scripts(scripts_dir='scripts'):
     
     print(f"\nEjecución completada: {success_count} de {len(script_files)} scripts ejecutados correctamente.")
 
-def extract_examples_to_files(example_file='example_scripts.txt', output_dir='scripts'):
-    """Extract individual scripts from the example file and save them as separate files"""
+
+def extract_examples_to_files(example_file='example_scripts.json', output_dir='scripts'):
+    """Extract individual scripts from the JSON file and save them as separate .dsl files"""
+    import json
+
     if not os.path.exists(example_file):
         print(f"El archivo de ejemplos '{example_file}' no existe.")
         return
-    
-    # Create output directory if it doesn't exist
+
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
+
     with open(example_file, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Split the content by script comments
-    parts = content.split('// Script ')
-    
-    # Process each script
-    for i, part in enumerate(parts):
-        if i == 0:  # Skip the first part (empty)
-            continue
-        
-        # Split by the first newline to separate script number from content
-        try:
-            script_number, script_content = part.split(':', 1)
-            script_number = script_number.strip()
-            
-            # Create a file for this script
-            filename = f"{output_dir}/script_{script_number.zfill(2)}.dsl"
-            with open(filename, 'w', encoding='utf-8') as script_file:
-                script_file.write(script_content.strip())
-            
-            print(f"Script {script_number} extraído a {filename}")
-        except ValueError:
-            print(f"Error al procesar parte del ejemplo: {part[:50]}...")
+        scripts = json.load(f)
+
+    for script in scripts:
+        num = str(script['numero']).zfill(2)
+        content = script['contenido']
+        filename = os.path.join(output_dir, f"script_{num}.dsl")
+        with open(filename, 'w', encoding='utf-8') as out_file:
+            out_file.write(content)
+        print(f"Script {num} extraído a {filename}")
+
 
 def run_specific_script(script_number, scripts_dir='scripts'):
     """Run a specific script by number"""

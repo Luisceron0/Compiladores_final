@@ -1,0 +1,301 @@
+id_empleado,nombre,departamento,cargo,salario,fecha_ingreso,edad,dias_laborados,correo,telefono
+EMP0001,Sofía Romero,Operaciones,Coordinador Logístico,2836.76,2020-11-09,20,1652,sofía.romero@empresa.com,+57 319 4124007
+EMP0002,Ricardo Díaz,Tecnología,Ingeniero de Software,4771.88,2023-10-30,64,567,ricardo.díaz@empresa.com,+57 305 4896524
+EMP0003,Juan Jiménez,Administración,Analista Administrativo,2543.66,2020-11-12,45,1649,juan.jiménez@empresa.com,+57 330 5461629
+EMP0004,Valentina Muñoz,Legal,Abogado,5192.54,2018-08-31,55,2453,valentina.muñoz@empresa.com,+57 344 7878590
+EMP0005,Miguel Rodríguez,Recursos Humanos,Reclutador,2960.31,2019-06-20,24,2160,miguel.rodríguez@empresa.com,+57 306 9740592
+EMP0006,Natalia Castillo,Tecnología,Ingeniero de Software,5320.56,2018-11-11,58,2381,natalia.castillo@empresa.com,+57 300 9812829
+EMP0007,Eduardo González,Administración,Analista Administrativo,2180.64,2017-01-16,45,3045,eduardo.gonzález@empresa.com,+57 334 6207118
+EMP0008,Alejandro Morales,Operaciones,Coordinador Logístico,2858.92,2025-03-29,32,51,alejandro.morales@empresa.com,+57 337 1809287
+EMP0009,Diego Díaz,Operaciones,Analista de Operaciones,2467.61,2019-01-11,52,2320,diego.díaz@empresa.com,+57 325 6375541
+EMP0010,Natalia Álvarez,Tecnología,Director de TI,7247.15,2023-10-03,55,594,natalia.álvarez@empresa.com,+57 340 5959901
+EMP0011,Gabriela Hernández,Tecnología,Ingeniero de Software,5060.66,2022-10-03,45,959,gabriela.hernández@empresa.com,+57 314 8320819
+EMP0012,Eduardo Fernández,Legal,Director Legal,7108.04,2016-11-25,59,3097,eduardo.fernández@empresa.com,+57 301 4350407
+EMP0013,Victoria Muñoz,Operaciones,Analista de Operaciones,2858.58,2021-10-14,31,1313,victoria.muñoz@empresa.com,+57 315 6313387
+EMP0014,Javier Díaz,Ventas,Director de Ventas,5270.8,2024-08-11,46,281,javier.díaz@empresa.com,+57 343 3150482
+EMP0015,Andrés Muñoz,Operaciones,Analista de Operaciones,2719.05,2019-12-23,24,1974,andrés.muñoz@empresa.com,+57 310 3715073
+EMP0016,Sofía Torres,Tecnología,Ingeniero de Software,5025.87,2021-04-04,44,1506,sofía.torres@empresa.com,+57 332 8689085
+EMP0017,María Moreno,Ventas,Asistente de Ventas,1945.28,2020-02-12,22,1923,maría.moreno@empresa.com,+57 327 1191087
+EMP0018,Victoria Romero,Marketing,Director de Marketing,5552.68,2023-11-29,63,537,victoria.romero@empresa.com,+57 317 3663210
+EMP0019,José Martínez,Finanzas,Analista Financiero,3501.94,2017-06-11,25,2899,josé.martínez@empresa.com,+57 339 9417952
+EMP0020,Juan Díaz,Tecnología,Director de TI,7190.77,2025-02-10,62,98,juan.díaz@empresa.com,+57 320 8219803
+EMP0021,Victoria Díaz,Recursos Humanos,Director de RRHH,5081.62,2019-06-04,52,2176,victoria.díaz@empresa.com,+57 302 1988992
+EMP0022,Valentina Álvarez,Administración,Asistente Administrativo,2098.87,2019-09-23,35,2065,valentina.álvarez@empresa.com,+57 302 8936420
+EMP0023,Ana Jiménez,Operaciones,Analista de Operaciones,2671.23,2023-04-25,59,755,ana.jiménez@empresa.com,+57 338 5588460
+EMP0024,María Torres,Recursos Humanos,Coordinador de Beneficios,2846.58,2024-05-16,45,368,maría.torres@empresa.com,+57 320 9872322
+EMP0025,Miguel Fernández,Ventas,Representante de Ventas,2412.42,2021-08-24,34,1364,miguel.fernández@empresa.com,+57 338 1123509
+EMP0026,Diego Flores,Ventas,Representante de Ventas,2448.14,2018-06-18,49,2527,diego.flores@empresa.com,+57 336 9663483
+EMP0027,Daniela Morales,Finanzas,Analista Financiero,3540.99,2021-06-07,65,1442,daniela.morales@empresa.com,+57 343 9386517
+EMP0028,Gabriela Gómez,Ventas,Gerente de Ventas,3899.03,2024-10-28,45,203,gabriela.gómez@empresa.com,+57 318 2621168
+EMP0029,Sofía Muñoz,Recursos Humanos,Reclutador,2445.49,2017-12-11,62,2716,sofía.muñoz@empresa.com,+57 343 3567894
+EMP0030,Daniela Pérez,Recursos Humanos,Coordinador de Beneficios,2494.66,2024-11-06,47,194,daniela.pérez@empresa.com,+57 306 9431664
+EMP0031,José Fernández,Operaciones,Coordinador Logístico,2577.03,2025-03-09,51,71,josé.fernández@empresa.com,+57 340 2908101
+EMP0032,Natalia Moreno,Tecnología,Ingeniero de Software,5514.61,2015-09-08,44,3541,natalia.moreno@empresa.com,+57 319 4544495
+EMP0033,Victoria Reyes,Legal,Asesor Jurídico,4547.97,2020-03-03,24,1903,victoria.reyes@empresa.com,+57 330 5577863
+EMP0034,José Torres,Recursos Humanos,Reclutador,2466.32,2022-08-01,50,1022,josé.torres@empresa.com,+57 302 5748217
+EMP0035,Laura Ortega,Finanzas,Director Financiero,6737.81,2017-01-26,27,3035,laura.ortega@empresa.com,+57 319 9115346
+EMP0036,Alberto Cruz,Marketing,Gerente de Marketing,4064.34,2024-11-11,41,189,alberto.cruz@empresa.com,+57 300 4391259
+EMP0037,Victoria Flores,Finanzas,Analista Financiero,4203.05,2017-05-07,58,2934,victoria.flores@empresa.com,+57 322 7125893
+EMP0038,Alejandro Reyes,Legal,Abogado,4542.15,2024-12-12,42,158,alejandro.reyes@empresa.com,+57 334 4329949
+EMP0039,Valentina Romero,Tecnología,Arquitecto de Soluciones,5728.37,2024-01-23,33,482,valentina.romero@empresa.com,+57 307 1815329
+EMP0040,Miguel Castillo,Tecnología,Arquitecto de Soluciones,6294.49,2024-12-21,61,149,miguel.castillo@empresa.com,+57 320 6765658
+EMP0041,Eduardo Morales,Tecnología,Ingeniero de Software,5656.67,2022-09-18,32,974,eduardo.morales@empresa.com,+57 349 6368965
+EMP0042,Natalia Castillo,Ventas,Representante de Ventas,2560.52,2020-06-25,34,1789,natalia.castillo@empresa.com,+57 310 6543171
+EMP0043,Andrés Vargas,Marketing,Especialista en Marketing,2631.05,2022-02-05,40,1199,andrés.vargas@empresa.com,+57 349 9472622
+EMP0044,María Reyes,Legal,Asesor Jurídico,4566.47,2017-01-31,60,3030,maría.reyes@empresa.com,+57 300 5570432
+EMP0045,Daniela Castillo,Marketing,Gerente de Marketing,4374.07,2022-04-12,60,1133,daniela.castillo@empresa.com,+57 334 7511469
+EMP0046,Laura Flores,Administración,Coordinador Administrativo,2943.3,2017-09-01,25,2817,laura.flores@empresa.com,+57 332 9432755
+EMP0047,Natalia Jiménez,Operaciones,Director de Operaciones,4464.2,2025-02-03,48,105,natalia.jiménez@empresa.com,+57 324 8617771
+EMP0048,Juan Pérez,Ventas,Asistente de Ventas,1842.19,2015-07-21,20,3590,juan.pérez@empresa.com,+57 302 1462135
+EMP0049,Luisa Reyes,Legal,Asistente Legal,2896.49,2022-07-31,60,1023,luisa.reyes@empresa.com,+57 301 4244378
+EMP0050,Valentina Rodríguez,Tecnología,Director de TI,6647.02,2019-08-31,32,2088,valentina.rodríguez@empresa.com,+57 303 8688367
+EMP0051,Luisa López,Marketing,Asistente de Marketing,2170.87,2016-12-13,59,3079,luisa.lópez@empresa.com,+57 302 3115354
+EMP0052,José Ortega,Operaciones,Coordinador Logístico,2484.18,2015-12-27,60,3431,josé.ortega@empresa.com,+57 308 1464960
+EMP0053,Juan Flores,Administración,Asistente Administrativo,2038.58,2024-01-08,48,497,juan.flores@empresa.com,+57 330 1529629
+EMP0054,Javier Reyes,Tecnología,Ingeniero de Software,5223.09,2016-05-01,57,3305,javier.reyes@empresa.com,+57 310 2456167
+EMP0055,Carlos Pérez,Operaciones,Gerente de Operaciones,4124.84,2024-10-10,39,221,carlos.pérez@empresa.com,+57 337 8660319
+EMP0056,Ricardo González,Marketing,Gerente de Marketing,3966.86,2016-04-15,23,3321,ricardo.gonzález@empresa.com,+57 316 6725772
+EMP0057,Carlos Gómez,Ventas,Director de Ventas,5078.51,2016-05-20,48,3286,carlos.gómez@empresa.com,+57 336 7898986
+EMP0058,Ricardo Hernández,Finanzas,Tesorero,4436.07,2019-01-02,54,2329,ricardo.hernández@empresa.com,+57 344 6983764
+EMP0059,Ricardo Fernández,Marketing,Especialista en Marketing,2535.69,2016-10-12,34,3141,ricardo.fernández@empresa.com,+57 315 4898360
+EMP0060,Diego Moreno,Finanzas,Tesorero,3994.24,2017-08-23,50,2826,diego.moreno@empresa.com,+57 349 9421887
+EMP0061,Natalia Morales,Finanzas,Director Financiero,6480.19,2018-02-15,31,2650,natalia.morales@empresa.com,+57 307 7634550
+EMP0062,Javier Pérez,Operaciones,Coordinador Logístico,2672.72,2021-10-30,62,1297,javier.pérez@empresa.com,+57 330 2030074
+EMP0063,Victoria López,Ventas,Gerente de Ventas,3747.05,2017-11-24,46,2733,victoria.lópez@empresa.com,+57 339 5111203
+EMP0064,Laura Vargas,Legal,Asesor Jurídico,4979.17,2022-12-19,23,882,laura.vargas@empresa.com,+57 346 9329188
+EMP0065,Miguel Moreno,Operaciones,Analista de Operaciones,2682.46,2016-10-25,38,3128,miguel.moreno@empresa.com,+57 321 4301660
+EMP0066,Luisa Díaz,Ventas,Director de Ventas,4521.78,2017-01-22,55,3039,luisa.díaz@empresa.com,+57 347 7453103
+EMP0067,Alejandro Sánchez,Marketing,Gerente de Marketing,4439.61,2020-07-16,49,1768,alejandro.sánchez@empresa.com,+57 311 7432148
+EMP0068,Gabriela Fernández,Marketing,Gerente de Marketing,3794.06,2023-03-29,27,782,gabriela.fernández@empresa.com,+57 318 9042859
+EMP0069,Daniela González,Ventas,Gerente de Ventas,3757.6,2017-12-21,31,2706,daniela.gonzález@empresa.com,+57 308 2114808
+EMP0070,María Ruiz,Operaciones,Analista de Operaciones,2404.25,2022-02-06,36,1198,maría.ruiz@empresa.com,+57 305 4743145
+EMP0071,Ana Martínez,Operaciones,Analista de Operaciones,2750.32,2020-04-02,42,1873,ana.martínez@empresa.com,+57 300 2757014
+EMP0072,Diego Álvarez,Administración,Gerente Administrativo,3554.45,2020-01-18,25,1948,diego.álvarez@empresa.com,+57 343 7736853
+EMP0073,Alejandro Sánchez,Finanzas,Tesorero,3887.56,2018-11-07,55,2385,alejandro.sánchez@empresa.com,+57 301 5158967
+EMP0074,Diego Reyes,Recursos Humanos,Director de RRHH,5012.89,2022-11-06,29,925,diego.reyes@empresa.com,+57 342 9444691
+EMP0075,Camila Muñoz,Legal,Asesor Jurídico,4313.1,2016-01-04,26,3423,camila.muñoz@empresa.com,+57 302 4382814
+EMP0076,Juan López,Legal,Asistente Legal,2482.91,2019-08-17,34,2102,juan.lópez@empresa.com,+57 300 9225223
+EMP0077,Alejandro Morales,Administración,Asistente Administrativo,1820.14,2025-04-07,42,42,alejandro.morales@empresa.com,+57 318 1887806
+EMP0078,Juan Álvarez,Recursos Humanos,Reclutador,2735.7,2023-04-07,40,773,juan.álvarez@empresa.com,+57 338 7190169
+EMP0079,Carlos Sánchez,Administración,Analista Administrativo,2493.17,2021-06-14,43,1435,carlos.sánchez@empresa.com,+57 332 2275755
+EMP0080,Daniela Flores,Administración,Gerente Administrativo,3574.81,2022-02-08,20,1196,daniela.flores@empresa.com,+57 321 3290336
+EMP0081,José Flores,Marketing,Gerente de Marketing,4322.18,2016-10-02,32,3151,josé.flores@empresa.com,+57 316 4038797
+EMP0082,Valentina Pérez,Recursos Humanos,Director de RRHH,4781.53,2019-05-02,43,2209,valentina.pérez@empresa.com,+57 312 5670095
+EMP0083,Alejandro Jiménez,Operaciones,Coordinador Logístico,2572.06,2022-09-19,26,973,alejandro.jiménez@empresa.com,+57 323 7138962
+EMP0084,Carlos Castillo,Tecnología,Arquitecto de Soluciones,6063.21,2024-02-04,54,470,carlos.castillo@empresa.com,+57 309 9570112
+EMP0085,Ana Pérez,Tecnología,Ingeniero de Software,5146.0,2020-06-11,33,1803,ana.pérez@empresa.com,+57 343 5962796
+EMP0086,Sofía Flores,Legal,Abogado,4988.61,2021-08-28,54,1360,sofía.flores@empresa.com,+57 319 5365016
+EMP0087,Luisa Ruiz,Ventas,Representante de Ventas,2651.68,2021-04-02,50,1508,luisa.ruiz@empresa.com,+57 315 1993273
+EMP0088,Alberto Morales,Finanzas,Tesorero,3779.92,2015-07-31,35,3580,alberto.morales@empresa.com,+57 340 9560770
+EMP0089,Daniela Morales,Marketing,Director de Marketing,5286.14,2019-11-06,50,2021,daniela.morales@empresa.com,+57 325 1114554
+EMP0090,Fernanda Moreno,Ventas,Representante de Ventas,2476.96,2022-02-08,25,1196,fernanda.moreno@empresa.com,+57 324 5944108
+EMP0091,Eduardo Moreno,Legal,Director Legal,7182.59,2024-05-13,40,371,eduardo.moreno@empresa.com,+57 301 2739180
+EMP0092,Natalia Martínez,Administración,Gerente Administrativo,3301.08,2016-08-21,38,3193,natalia.martínez@empresa.com,+57 327 4175963
+EMP0093,Natalia Hernández,Legal,Asesor Jurídico,4636.18,2022-03-07,65,1169,natalia.hernández@empresa.com,+57 344 5092011
+EMP0094,Valentina Vargas,Operaciones,Gerente de Operaciones,3841.19,2022-06-07,49,1077,valentina.vargas@empresa.com,+57 335 2781015
+EMP0095,Diego Reyes,Marketing,Asistente de Marketing,2220.36,2023-12-11,25,525,diego.reyes@empresa.com,+57 350 3071009
+EMP0096,Eduardo Ruiz,Recursos Humanos,Especialista en RRHH,3079.39,2015-10-04,53,3515,eduardo.ruiz@empresa.com,+57 311 4966815
+EMP0097,Alejandro Fernández,Ventas,Gerente de Ventas,3640.85,2022-08-19,58,1004,alejandro.fernández@empresa.com,+57 311 8249875
+EMP0098,Javier Reyes,Operaciones,Director de Operaciones,5032.4,2023-09-06,65,621,javier.reyes@empresa.com,+57 331 4999142
+EMP0099,Sofía Gómez,Operaciones,Director de Operaciones,5023.53,2017-12-02,40,2725,sofía.gómez@empresa.com,+57 342 8939480
+EMP0100,Carlos Moreno,Ventas,Gerente de Ventas,4110.38,2016-07-07,23,3238,carlos.moreno@empresa.com,+57 335 2223780
+EMP0101,María Castillo,Finanzas,Director Financiero,6423.28,2017-08-16,49,2833,maría.castillo@empresa.com,+57 328 1319380
+EMP0102,Fernanda Álvarez,Recursos Humanos,Director de RRHH,4856.47,2022-09-12,62,980,fernanda.álvarez@empresa.com,+57 312 9127407
+EMP0103,Ricardo Muñoz,Operaciones,Director de Operaciones,4603.05,2022-11-19,29,912,ricardo.muñoz@empresa.com,+57 320 3034548
+EMP0104,Gabriela Martínez,Recursos Humanos,Reclutador,2861.24,2019-03-12,38,2260,gabriela.martínez@empresa.com,+57 340 8146246
+EMP0105,Isabella Cruz,Operaciones,Gerente de Operaciones,3939.76,2025-03-16,54,64,isabella.cruz@empresa.com,+57 337 6814659
+EMP0106,Camila Flores,Finanzas,Director Financiero,6581.06,2017-12-02,28,2725,camila.flores@empresa.com,+57 314 3135187
+EMP0107,Eduardo Castillo,Marketing,Director de Marketing,5617.59,2016-04-23,34,3313,eduardo.castillo@empresa.com,+57 323 8090373
+EMP0108,Juan Vargas,Operaciones,Director de Operaciones,4468.78,2015-10-16,51,3503,juan.vargas@empresa.com,+57 347 9645540
+EMP0109,Ricardo Flores,Operaciones,Director de Operaciones,5060.39,2018-01-14,55,2682,ricardo.flores@empresa.com,+57 347 1302025
+EMP0110,Gabriela Reyes,Administración,Coordinador Administrativo,3138.52,2019-11-25,26,2002,gabriela.reyes@empresa.com,+57 315 5431500
+EMP0111,Laura Fernández,Finanzas,Director Financiero,6566.31,2019-12-15,32,1982,laura.fernández@empresa.com,+57 348 8385649
+EMP0112,Isabella Rodríguez,Legal,Asesor Jurídico,4731.2,2022-01-04,21,1231,isabella.rodríguez@empresa.com,+57 345 4825667
+EMP0113,Laura Morales,Tecnología,Director de TI,7101.2,2020-02-12,48,1923,laura.morales@empresa.com,+57 315 2394385
+EMP0114,Alberto González,Finanzas,Director Financiero,6628.12,2016-11-22,52,3100,alberto.gonzález@empresa.com,+57 301 1931617
+EMP0115,Carlos González,Ventas,Representante de Ventas,2332.95,2022-09-19,44,973,carlos.gonzález@empresa.com,+57 332 1603337
+EMP0116,Ricardo López,Marketing,Director de Marketing,5056.18,2020-10-25,56,1667,ricardo.lópez@empresa.com,+57 349 8779411
+EMP0117,Pedro Sánchez,Recursos Humanos,Especialista en RRHH,2843.92,2015-11-30,28,3458,pedro.sánchez@empresa.com,+57 330 6488750
+EMP0118,Isabella López,Recursos Humanos,Especialista en RRHH,3263.96,2016-07-27,38,3218,isabella.lópez@empresa.com,+57 306 1313541
+EMP0119,Miguel Díaz,Operaciones,Coordinador Logístico,2462.57,2022-01-20,55,1215,miguel.díaz@empresa.com,+57 350 6960343
+EMP0120,Javier Martínez,Legal,Director Legal,6642.06,2023-07-15,59,674,javier.martínez@empresa.com,+57 332 9873623
+EMP0121,Camila Pérez,Ventas,Gerente de Ventas,3414.59,2016-07-04,53,3241,camila.pérez@empresa.com,+57 304 9987903
+EMP0122,Ana Jiménez,Ventas,Gerente de Ventas,3857.26,2020-02-28,29,1907,ana.jiménez@empresa.com,+57 321 9167508
+EMP0123,Luisa Hernández,Tecnología,Arquitecto de Soluciones,5930.75,2016-11-01,50,3121,luisa.hernández@empresa.com,+57 326 4525294
+EMP0124,Valentina González,Marketing,Gerente de Marketing,4462.53,2017-01-28,38,3033,valentina.gonzález@empresa.com,+57 319 4956866
+EMP0125,Javier Castillo,Operaciones,Coordinador Logístico,2750.11,2023-08-29,29,629,javier.castillo@empresa.com,+57 350 8547769
+EMP0126,Pedro Castillo,Operaciones,Director de Operaciones,4757.92,2017-08-31,38,2818,pedro.castillo@empresa.com,+57 330 9883406
+EMP0127,Juan Reyes,Legal,Director Legal,6250.88,2018-02-19,24,2646,juan.reyes@empresa.com,+57 333 1182426
+EMP0128,Juan Fernández,Legal,Asistente Legal,2604.64,2016-03-12,32,3355,juan.fernández@empresa.com,+57 335 5074000
+EMP0129,Carlos Flores,Tecnología,Arquitecto de Soluciones,6505.04,2024-09-19,55,242,carlos.flores@empresa.com,+57 347 7295898
+EMP0130,Javier Jiménez,Recursos Humanos,Reclutador,2688.27,2020-11-10,28,1651,javier.jiménez@empresa.com,+57 339 1550425
+EMP0131,Isabella Romero,Ventas,Director de Ventas,4721.97,2018-10-11,51,2412,isabella.romero@empresa.com,+57 338 3038613
+EMP0132,Juan Vargas,Legal,Abogado,4743.38,2015-10-28,27,3491,juan.vargas@empresa.com,+57 319 9904520
+EMP0133,Camila Hernández,Legal,Abogado,5441.19,2015-12-05,58,3453,camila.hernández@empresa.com,+57 338 5186708
+EMP0134,Isabella Castillo,Administración,Analista Administrativo,2325.92,2023-05-25,31,725,isabella.castillo@empresa.com,+57 329 9468217
+EMP0135,Valentina Jiménez,Finanzas,Contador,3099.3,2019-05-22,35,2189,valentina.jiménez@empresa.com,+57 339 8708979
+EMP0136,Isabella Ortega,Ventas,Representante de Ventas,2462.92,2024-11-04,36,196,isabella.ortega@empresa.com,+57 332 1907612
+EMP0137,Sofía Rodríguez,Marketing,Director de Marketing,5505.14,2021-04-16,24,1494,sofía.rodríguez@empresa.com,+57 339 4409528
+EMP0138,María Sánchez,Finanzas,Contador,3040.71,2024-08-20,36,272,maría.sánchez@empresa.com,+57 336 1820075
+EMP0139,Alberto López,Marketing,Director de Marketing,5518.22,2024-12-09,55,161,alberto.lópez@empresa.com,+57 314 6145499
+EMP0140,Carlos Pérez,Ventas,Representante de Ventas,2725.32,2023-02-20,64,819,carlos.pérez@empresa.com,+57 342 2896596
+EMP0141,Juan Martínez,Legal,Asesor Jurídico,4656.29,2022-04-10,28,1135,juan.martínez@empresa.com,+57 331 5648174
+EMP0142,Sofía Morales,Tecnología,Arquitecto de Soluciones,6170.95,2023-08-05,46,653,sofía.morales@empresa.com,+57 338 5274842
+EMP0143,Miguel López,Marketing,Director de Marketing,5594.24,2020-04-04,27,1871,miguel.lópez@empresa.com,+57 302 5574414
+EMP0144,Victoria Ramírez,Recursos Humanos,Especialista en RRHH,2681.54,2021-10-18,51,1309,victoria.ramírez@empresa.com,+57 307 1874377
+EMP0145,Fernanda Díaz,Recursos Humanos,Reclutador,2502.63,2019-12-29,42,1968,fernanda.díaz@empresa.com,+57 325 3007152
+EMP0146,Eduardo Cruz,Tecnología,Director de TI,6604.38,2022-04-22,59,1123,eduardo.cruz@empresa.com,+57 330 4891236
+EMP0147,Juan Flores,Ventas,Director de Ventas,4582.04,2018-07-10,58,2505,juan.flores@empresa.com,+57 300 1689202
+EMP0148,Victoria Ruiz,Ventas,Representante de Ventas,2398.01,2021-07-14,55,1405,victoria.ruiz@empresa.com,+57 311 7241985
+EMP0149,Andrés González,Operaciones,Gerente de Operaciones,3573.8,2015-08-26,37,3554,andrés.gonzález@empresa.com,+57 345 1387733
+EMP0150,Carlos Torres,Finanzas,Tesorero,4152.65,2022-12-07,20,894,carlos.torres@empresa.com,+57 336 1431402
+EMP0151,Ricardo Díaz,Marketing,Especialista en Marketing,2619.6,2020-04-07,20,1868,ricardo.díaz@empresa.com,+57 337 1786343
+EMP0152,Carlos Vargas,Operaciones,Coordinador Logístico,2543.0,2023-04-25,32,755,carlos.vargas@empresa.com,+57 345 8585272
+EMP0153,Isabella Ramírez,Marketing,Especialista en Marketing,3042.75,2019-05-08,26,2203,isabella.ramírez@empresa.com,+57 324 6118829
+EMP0154,Miguel Romero,Operaciones,Gerente de Operaciones,3553.42,2022-12-26,59,875,miguel.romero@empresa.com,+57 315 3798789
+EMP0155,Sofía Ruiz,Ventas,Gerente de Ventas,4053.31,2024-12-02,40,168,sofía.ruiz@empresa.com,+57 333 3654922
+EMP0156,Alejandro Cruz,Legal,Abogado,4620.99,2021-11-19,24,1277,alejandro.cruz@empresa.com,+57 329 4301000
+EMP0157,Javier Romero,Administración,Asistente Administrativo,1846.56,2018-12-30,41,2332,javier.romero@empresa.com,+57 301 4991653
+EMP0158,Sofía Sánchez,Administración,Gerente Administrativo,3796.48,2019-06-19,54,2161,sofía.sánchez@empresa.com,+57 321 4991996
+EMP0159,Victoria Sánchez,Legal,Asesor Jurídico,4260.18,2024-08-23,35,269,victoria.sánchez@empresa.com,+57 319 6041300
+EMP0160,Diego Fernández,Administración,Gerente Administrativo,3712.4,2016-09-27,63,3156,diego.fernández@empresa.com,+57 333 6262741
+EMP0161,Valentina Pérez,Operaciones,Gerente de Operaciones,3634.13,2022-07-07,33,1047,valentina.pérez@empresa.com,+57 333 6556984
+EMP0162,Gabriela Fernández,Operaciones,Coordinador Logístico,2425.29,2019-09-20,65,2068,gabriela.fernández@empresa.com,+57 331 8439564
+EMP0163,Andrés Gómez,Operaciones,Analista de Operaciones,2452.76,2025-03-12,61,68,andrés.gómez@empresa.com,+57 349 8877138
+EMP0164,Gabriela Vargas,Finanzas,Tesorero,3775.82,2017-02-06,38,3024,gabriela.vargas@empresa.com,+57 322 6366572
+EMP0165,Fernanda Hernández,Legal,Abogado,4916.1,2022-10-20,65,942,fernanda.hernández@empresa.com,+57 325 5918231
+EMP0166,Laura Torres,Marketing,Director de Marketing,5799.27,2016-09-15,61,3168,laura.torres@empresa.com,+57 339 4206210
+EMP0167,Alejandro Martínez,Operaciones,Director de Operaciones,5051.42,2023-02-04,39,835,alejandro.martínez@empresa.com,+57 301 5109148
+EMP0168,Gabriela Cruz,Operaciones,Coordinador Logístico,2774.46,2017-12-15,34,2712,gabriela.cruz@empresa.com,+57 303 9987242
+EMP0169,Diego Flores,Legal,Abogado,4891.29,2020-04-13,40,1862,diego.flores@empresa.com,+57 309 4538174
+EMP0170,Alberto Ramírez,Ventas,Gerente de Ventas,3645.31,2015-11-02,60,3486,alberto.ramírez@empresa.com,+57 336 7315506
+EMP0171,María López,Recursos Humanos,Especialista en RRHH,2721.54,2015-07-11,48,3600,maría.lópez@empresa.com,+57 324 4838213
+EMP0172,Daniela Ramírez,Ventas,Asistente de Ventas,1878.71,2016-09-25,65,3158,daniela.ramírez@empresa.com,+57 348 2295128
+EMP0173,Alejandro Ortega,Recursos Humanos,Reclutador,2536.56,2024-12-30,35,140,alejandro.ortega@empresa.com,+57 310 2499292
+EMP0174,Luisa Vargas,Administración,Gerente Administrativo,3793.07,2020-10-23,55,1669,luisa.vargas@empresa.com,+57 319 1319959
+EMP0175,Andrés Gómez,Finanzas,Contador,3023.93,2023-02-27,22,812,andrés.gómez@empresa.com,+57 314 1779120
+EMP0176,Javier Cruz,Marketing,Especialista en Marketing,2729.24,2024-11-01,63,199,javier.cruz@empresa.com,+57 326 2213182
+EMP0177,Pedro Torres,Recursos Humanos,Especialista en RRHH,2754.4,2024-07-15,29,308,pedro.torres@empresa.com,+57 324 1459003
+EMP0178,Ricardo Reyes,Finanzas,Contador,2985.78,2020-07-02,61,1782,ricardo.reyes@empresa.com,+57 346 8840006
+EMP0179,Ana Vargas,Marketing,Especialista en Marketing,2888.28,2024-01-03,41,502,ana.vargas@empresa.com,+57 349 8413138
+EMP0180,Camila Fernández,Administración,Coordinador Administrativo,3037.82,2024-11-26,20,174,camila.fernández@empresa.com,+57 324 5428212
+EMP0181,Carlos Romero,Operaciones,Gerente de Operaciones,3512.6,2015-06-19,54,3622,carlos.romero@empresa.com,+57 302 7177553
+EMP0182,Ana Martínez,Marketing,Gerente de Marketing,3837.34,2017-01-11,22,3050,ana.martínez@empresa.com,+57 332 8233331
+EMP0183,Camila Álvarez,Ventas,Representante de Ventas,2565.5,2022-09-04,57,988,camila.álvarez@empresa.com,+57 339 1397444
+EMP0184,Natalia Ruiz,Administración,Asistente Administrativo,2070.66,2020-10-09,54,1683,natalia.ruiz@empresa.com,+57 308 7779732
+EMP0185,Andrés Sánchez,Operaciones,Coordinador Logístico,2564.14,2016-05-03,20,3303,andrés.sánchez@empresa.com,+57 340 6909009
+EMP0186,Valentina Ramírez,Legal,Director Legal,6838.29,2021-12-10,61,1256,valentina.ramírez@empresa.com,+57 331 6426317
+EMP0187,Luisa Rodríguez,Tecnología,Director de TI,7468.98,2025-03-24,43,56,luisa.rodríguez@empresa.com,+57 326 5803557
+EMP0188,José Díaz,Tecnología,Ingeniero de Software,4783.02,2021-10-19,60,1308,josé.díaz@empresa.com,+57 304 2748281
+EMP0189,Gabriela Morales,Marketing,Especialista en Marketing,2910.12,2019-07-03,53,2147,gabriela.morales@empresa.com,+57 309 1079718
+EMP0190,Fernanda López,Recursos Humanos,Director de RRHH,5171.46,2016-09-23,53,3160,fernanda.lópez@empresa.com,+57 325 6442681
+EMP0191,Valentina Romero,Recursos Humanos,Coordinador de Beneficios,2558.98,2019-08-22,48,2097,valentina.romero@empresa.com,+57 305 8416165
+EMP0192,Javier Romero,Legal,Abogado,5035.82,2019-04-21,44,2220,javier.romero@empresa.com,+57 319 8921319
+EMP0193,Sofía Álvarez,Tecnología,Desarrollador,3809.54,2024-05-04,62,380,sofía.álvarez@empresa.com,+57 311 7644972
+EMP0194,Miguel Álvarez,Legal,Director Legal,6672.32,2019-12-19,64,1978,miguel.álvarez@empresa.com,+57 307 8759427
+EMP0195,Ana Ruiz,Legal,Abogado,4779.12,2015-10-21,64,3498,ana.ruiz@empresa.com,+57 301 3381743
+EMP0196,Victoria Jiménez,Ventas,Director de Ventas,4683.37,2023-11-10,42,556,victoria.jiménez@empresa.com,+57 310 4309747
+EMP0197,María Reyes,Operaciones,Analista de Operaciones,2838.74,2017-12-12,65,2715,maría.reyes@empresa.com,+57 310 7618856
+EMP0198,Carlos Muñoz,Marketing,Asistente de Marketing,2328.64,2017-06-21,47,2889,carlos.muñoz@empresa.com,+57 316 2877833
+EMP0199,María González,Administración,Coordinador Administrativo,2701.27,2023-01-05,51,865,maría.gonzález@empresa.com,+57 309 5558685
+EMP0200,Luisa Jiménez,Legal,Asistente Legal,2608.71,2020-03-25,20,1881,luisa.jiménez@empresa.com,+57 326 1001446
+EMP0201,Isabella Flores,Operaciones,Director de Operaciones,4717.44,2016-10-27,23,3126,isabella.flores@empresa.com,+57 349 7454579
+EMP0202,Carlos González,Finanzas,Tesorero,4366.55,2017-08-15,23,2834,carlos.gonzález@empresa.com,+57 338 4655198
+EMP0203,Miguel Ramírez,Recursos Humanos,Especialista en RRHH,2984.6,2024-09-03,24,258,miguel.ramírez@empresa.com,+57 302 4126712
+EMP0204,Camila López,Administración,Coordinador Administrativo,3085.4,2021-05-17,29,1463,camila.lópez@empresa.com,+57 305 7959983
+EMP0205,Daniela Romero,Tecnología,Director de TI,6383.04,2022-06-07,39,1077,daniela.romero@empresa.com,+57 306 4649382
+EMP0206,Victoria Romero,Recursos Humanos,Reclutador,2568.63,2024-02-28,35,446,victoria.romero@empresa.com,+57 344 9609930
+EMP0207,Pedro Romero,Marketing,Asistente de Marketing,2171.0,2021-12-12,39,1254,pedro.romero@empresa.com,+57 301 8187636
+EMP0208,Luisa Castillo,Operaciones,Director de Operaciones,4748.47,2021-03-16,51,1525,luisa.castillo@empresa.com,+57 344 1318242
+EMP0209,María Cruz,Administración,Gerente Administrativo,3516.78,2022-04-01,55,1144,maría.cruz@empresa.com,+57 328 8977624
+EMP0210,Javier Álvarez,Finanzas,Director Financiero,6264.49,2017-05-27,20,2914,javier.álvarez@empresa.com,+57 329 5527227
+EMP0211,Valentina Morales,Recursos Humanos,Reclutador,2576.31,2021-03-25,21,1516,valentina.morales@empresa.com,+57 319 1210373
+EMP0212,Camila Muñoz,Administración,Coordinador Administrativo,2894.81,2018-08-10,36,2474,camila.muñoz@empresa.com,+57 330 6571621
+EMP0213,Valentina Pérez,Legal,Asistente Legal,2710.42,2018-08-07,54,2477,valentina.pérez@empresa.com,+57 312 7402538
+EMP0214,Valentina Castillo,Marketing,Director de Marketing,5934.1,2015-11-09,55,3479,valentina.castillo@empresa.com,+57 318 1920535
+EMP0215,Valentina Cruz,Recursos Humanos,Especialista en RRHH,3186.85,2020-05-16,49,1829,valentina.cruz@empresa.com,+57 338 7183530
+EMP0216,María Cruz,Recursos Humanos,Director de RRHH,4972.12,2024-01-02,48,503,maría.cruz@empresa.com,+57 343 9735668
+EMP0217,Alejandro Fernández,Finanzas,Analista Financiero,3568.57,2018-03-30,31,2607,alejandro.fernández@empresa.com,+57 338 3112591
+EMP0218,Eduardo Martínez,Tecnología,Director de TI,7002.59,2024-12-22,25,148,eduardo.martínez@empresa.com,+57 328 2502447
+EMP0219,Luisa Díaz,Recursos Humanos,Reclutador,2616.24,2023-04-28,52,752,luisa.díaz@empresa.com,+57 348 5261672
+EMP0220,Gabriela Flores,Marketing,Gerente de Marketing,4392.88,2023-06-13,46,706,gabriela.flores@empresa.com,+57 312 5276250
+EMP0221,Eduardo López,Marketing,Gerente de Marketing,3894.73,2021-01-26,43,1574,eduardo.lópez@empresa.com,+57 349 5691921
+EMP0222,Alberto Álvarez,Finanzas,Contador,2892.76,2023-10-23,30,574,alberto.álvarez@empresa.com,+57 343 3029408
+EMP0223,Daniela Sánchez,Ventas,Gerente de Ventas,3654.83,2018-03-04,30,2633,daniela.sánchez@empresa.com,+57 346 5506807
+EMP0224,Andrés Ramírez,Tecnología,Ingeniero de Software,4930.82,2021-08-30,52,1358,andrés.ramírez@empresa.com,+57 323 7990569
+EMP0225,Isabella Flores,Administración,Analista Administrativo,2370.15,2024-03-12,50,433,isabella.flores@empresa.com,+57 320 2009129
+EMP0226,Diego Ortega,Marketing,Especialista en Marketing,3017.55,2024-06-09,20,344,diego.ortega@empresa.com,+57 312 5670978
+EMP0227,Daniela Moreno,Legal,Abogado,4615.92,2025-03-11,20,69,daniela.moreno@empresa.com,+57 326 3371063
+EMP0228,Juan Ramírez,Tecnología,Ingeniero de Software,4994.49,2016-04-03,29,3333,juan.ramírez@empresa.com,+57 312 6768227
+EMP0229,Daniela Jiménez,Tecnología,Desarrollador,3970.83,2023-07-16,59,673,daniela.jiménez@empresa.com,+57 315 4110149
+EMP0230,Alberto Hernández,Operaciones,Director de Operaciones,4933.36,2024-06-28,32,325,alberto.hernández@empresa.com,+57 318 9099384
+EMP0231,Alejandro Rodríguez,Finanzas,Tesorero,3887.77,2023-12-24,46,512,alejandro.rodríguez@empresa.com,+57 305 7615514
+EMP0232,Alejandro Cruz,Ventas,Gerente de Ventas,3583.33,2020-09-12,55,1710,alejandro.cruz@empresa.com,+57 333 6257331
+EMP0233,Carlos González,Tecnología,Director de TI,6728.97,2024-10-21,34,210,carlos.gonzález@empresa.com,+57 325 1406404
+EMP0234,Miguel Rodríguez,Administración,Gerente Administrativo,3704.05,2020-12-20,29,1611,miguel.rodríguez@empresa.com,+57 334 4144503
+EMP0235,Pedro Fernández,Administración,Gerente Administrativo,3543.88,2024-06-10,39,343,pedro.fernández@empresa.com,+57 303 6223447
+EMP0236,José Díaz,Legal,Director Legal,7151.45,2020-09-12,65,1710,josé.díaz@empresa.com,+57 338 9003024
+EMP0237,Isabella Cruz,Administración,Analista Administrativo,2628.45,2016-12-28,63,3064,isabella.cruz@empresa.com,+57 340 2519978
+EMP0238,Andrés Ortega,Tecnología,Arquitecto de Soluciones,6294.73,2019-07-23,39,2127,andrés.ortega@empresa.com,+57 343 3307974
+EMP0239,Eduardo Pérez,Operaciones,Gerente de Operaciones,3939.03,2016-02-22,24,3374,eduardo.pérez@empresa.com,+57 309 5078855
+EMP0240,Sofía Morales,Legal,Director Legal,6308.79,2022-10-20,47,942,sofía.morales@empresa.com,+57 322 2501298
+EMP0241,Ana Sánchez,Finanzas,Analista Financiero,3918.8,2016-02-14,20,3382,ana.sánchez@empresa.com,+57 345 3091166
+EMP0242,Pedro Torres,Tecnología,Desarrollador,3963.09,2024-05-01,50,383,pedro.torres@empresa.com,+57 300 9018566
+EMP0243,Miguel Ramírez,Recursos Humanos,Coordinador de Beneficios,2490.8,2022-04-03,21,1142,miguel.ramírez@empresa.com,+57 336 1951588
+EMP0244,Gabriela González,Administración,Analista Administrativo,2405.29,2024-07-24,36,299,gabriela.gonzález@empresa.com,+57 317 9565135
+EMP0245,Pedro Díaz,Legal,Asesor Jurídico,4846.17,2021-02-27,46,1542,pedro.díaz@empresa.com,+57 300 4503450
+EMP0246,Miguel Martínez,Administración,Coordinador Administrativo,2796.47,2016-05-16,52,3290,miguel.martínez@empresa.com,+57 337 6038352
+EMP0247,Juan Hernández,Tecnología,Director de TI,6946.71,2019-02-24,41,2276,juan.hernández@empresa.com,+57 308 3210550
+EMP0248,Sofía Hernández,Operaciones,Director de Operaciones,4791.62,2020-10-30,65,1662,sofía.hernández@empresa.com,+57 335 4731353
+EMP0249,Alberto Ramírez,Administración,Analista Administrativo,2616.68,2021-02-05,22,1564,alberto.ramírez@empresa.com,+57 302 8997581
+EMP0250,Javier López,Recursos Humanos,Director de RRHH,4462.06,2016-03-09,28,3358,javier.lópez@empresa.com,+57 328 7217637
+EMP0251,Luisa Ruiz,Operaciones,Analista de Operaciones,2824.47,2024-08-05,23,287,luisa.ruiz@empresa.com,+57 304 4776092
+EMP0252,Valentina Torres,Legal,Asistente Legal,2718.42,2016-03-01,31,3366,valentina.torres@empresa.com,+57 305 7687701
+EMP0253,Alberto Romero,Finanzas,Contador,3194.22,2015-09-07,39,3542,alberto.romero@empresa.com,+57 300 1137128
+EMP0254,Eduardo Fernández,Recursos Humanos,Especialista en RRHH,3201.13,2018-07-21,35,2494,eduardo.fernández@empresa.com,+57 343 6498457
+EMP0255,Camila Vargas,Recursos Humanos,Reclutador,2866.63,2022-09-08,57,984,camila.vargas@empresa.com,+57 319 8276731
+EMP0256,Camila Muñoz,Tecnología,Desarrollador,4469.43,2015-12-25,20,3433,camila.muñoz@empresa.com,+57 306 2959129
+EMP0257,Juan Flores,Marketing,Director de Marketing,6036.75,2020-12-28,61,1603,juan.flores@empresa.com,+57 336 4358730
+EMP0258,Ricardo Sánchez,Legal,Director Legal,7041.78,2017-12-18,20,2709,ricardo.sánchez@empresa.com,+57 321 4407161
+EMP0259,Alejandro Martínez,Tecnología,Ingeniero de Software,5734.81,2017-10-25,62,2763,alejandro.martínez@empresa.com,+57 342 9945748
+EMP0260,Alberto Ruiz,Recursos Humanos,Coordinador de Beneficios,2572.55,2024-06-19,44,334,alberto.ruiz@empresa.com,+57 348 7539874
+EMP0261,Laura Díaz,Operaciones,Analista de Operaciones,2599.41,2020-06-14,61,1800,laura.díaz@empresa.com,+57 327 5761433
+EMP0262,Alberto Ramírez,Tecnología,Desarrollador,4575.37,2020-06-22,23,1792,alberto.ramírez@empresa.com,+57 341 1038875
+EMP0263,Diego González,Operaciones,Analista de Operaciones,2653.24,2015-07-19,48,3592,diego.gonzález@empresa.com,+57 346 9368775
+EMP0264,Isabella Sánchez,Tecnología,Desarrollador,4195.9,2023-09-25,23,602,isabella.sánchez@empresa.com,+57 342 5460255
+EMP0265,Camila Castillo,Operaciones,Analista de Operaciones,2818.61,2023-01-02,27,868,camila.castillo@empresa.com,+57 304 2527406
+EMP0266,Miguel Castillo,Legal,Abogado,4768.94,2016-01-21,46,3406,miguel.castillo@empresa.com,+57 344 5608539
+EMP0267,Valentina Álvarez,Administración,Asistente Administrativo,1868.68,2024-03-24,60,421,valentina.álvarez@empresa.com,+57 311 6889186
+EMP0268,Eduardo Díaz,Administración,Asistente Administrativo,1935.71,2021-10-16,61,1311,eduardo.díaz@empresa.com,+57 314 9932078
+EMP0269,Alberto Rodríguez,Administración,Asistente Administrativo,2101.62,2021-11-29,38,1267,alberto.rodríguez@empresa.com,+57 350 7297597
+EMP0270,Camila Morales,Ventas,Director de Ventas,5478.05,2016-09-15,43,3168,camila.morales@empresa.com,+57 325 8198102
+EMP0271,José Rodríguez,Administración,Coordinador Administrativo,3165.02,2020-11-15,32,1646,josé.rodríguez@empresa.com,+57 325 4193126
+EMP0272,Daniela López,Legal,Director Legal,6269.95,2015-12-06,48,3452,daniela.lópez@empresa.com,+57 311 8624194
+EMP0273,Gabriela Gómez,Finanzas,Contador,3034.48,2021-02-15,58,1554,gabriela.gómez@empresa.com,+57 323 5609208
+EMP0274,Valentina Torres,Administración,Asistente Administrativo,2022.71,2023-09-19,56,608,valentina.torres@empresa.com,+57 338 7892447
+EMP0275,Ricardo Romero,Finanzas,Contador,3361.0,2019-07-05,28,2145,ricardo.romero@empresa.com,+57 305 5263185
+EMP0276,Victoria Castillo,Finanzas,Director Financiero,6478.19,2015-07-30,60,3581,victoria.castillo@empresa.com,+57 320 5968786
+EMP0277,Fernanda Sánchez,Ventas,Gerente de Ventas,3898.96,2019-03-27,43,2245,fernanda.sánchez@empresa.com,+57 306 1561545
+EMP0278,José Rodríguez,Marketing,Director de Marketing,5283.03,2018-06-09,56,2536,josé.rodríguez@empresa.com,+57 300 4690535
+EMP0279,Carlos Díaz,Finanzas,Contador,3295.03,2022-09-03,65,989,carlos.díaz@empresa.com,+57 307 4919420
+EMP0280,María Jiménez,Operaciones,Director de Operaciones,4313.72,2022-07-20,43,1034,maría.jiménez@empresa.com,+57 307 8883862
+EMP0281,Daniela Reyes,Finanzas,Analista Financiero,3600.14,2019-01-05,39,2326,daniela.reyes@empresa.com,+57 322 2925921
+EMP0282,Natalia Ortega,Marketing,Director de Marketing,5938.02,2024-01-09,35,496,natalia.ortega@empresa.com,+57 313 8665159
+EMP0283,Carlos González,Operaciones,Director de Operaciones,4392.31,2020-09-19,54,1703,carlos.gonzález@empresa.com,+57 350 4148258
+EMP0284,Diego Moreno,Ventas,Gerente de Ventas,4106.57,2022-12-22,63,879,diego.moreno@empresa.com,+57 343 5655038
+EMP0285,Alejandro Romero,Finanzas,Analista Financiero,3963.17,2021-09-20,31,1337,alejandro.romero@empresa.com,+57 312 5765603
+EMP0286,Juan Ortega,Tecnología,Arquitecto de Soluciones,6718.64,2018-05-06,63,2570,juan.ortega@empresa.com,+57 304 1501018
+EMP0287,Javier Jiménez,Finanzas,Analista Financiero,3779.31,2021-10-01,60,1326,javier.jiménez@empresa.com,+57 323 4970566
+EMP0288,Alberto Flores,Administración,Asistente Administrativo,1817.64,2024-11-29,65,171,alberto.flores@empresa.com,+57 320 9333385
+EMP0289,Daniela Muñoz,Legal,Asesor Jurídico,4581.8,2023-08-19,35,639,daniela.muñoz@empresa.com,+57 330 1338300
+EMP0290,Ana Díaz,Administración,Gerente Administrativo,3558.32,2021-04-11,60,1499,ana.díaz@empresa.com,+57 316 8162370
+EMP0291,Carlos Reyes,Ventas,Representante de Ventas,2535.47,2023-08-12,21,646,carlos.reyes@empresa.com,+57 336 6375846
+EMP0292,Javier Ortega,Ventas,Asistente de Ventas,2092.31,2024-03-21,45,424,javier.ortega@empresa.com,+57 326 5392661
+EMP0293,Carlos Romero,Tecnología,Arquitecto de Soluciones,6284.44,2020-08-26,38,1727,carlos.romero@empresa.com,+57 325 4849390
+EMP0294,Carlos Ramírez,Marketing,Asistente de Marketing,2217.71,2022-01-18,49,1217,carlos.ramírez@empresa.com,+57 343 9183463
+EMP0295,Eduardo González,Administración,Coordinador Administrativo,2984.44,2019-11-20,21,2007,eduardo.gonzález@empresa.com,+57 345 6575328
+EMP0296,Laura Moreno,Administración,Analista Administrativo,2468.09,2021-06-02,63,1447,laura.moreno@empresa.com,+57 336 9652517
+EMP0297,Ana Martínez,Tecnología,Director de TI,7060.82,2021-07-29,24,1390,ana.martínez@empresa.com,+57 322 3174287
+EMP0298,Valentina Vargas,Recursos Humanos,Director de RRHH,5330.72,2016-12-02,42,3090,valentina.vargas@empresa.com,+57 311 6638490
+EMP0299,Luisa Fernández,Recursos Humanos,Reclutador,2451.22,2021-03-05,22,1536,luisa.fernández@empresa.com,+57 325 1289546
+EMP0300,Eduardo Hernández,Marketing,Asistente de Marketing,2370.53,2022-07-19,59,1035,eduardo.hernández@empresa.com,+57 306 8488622
