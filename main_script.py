@@ -82,6 +82,29 @@ def run_example_scripts(scripts_dir='scripts'):
     
     print(f"\nEjecución completada: {success_count} de {len(script_files)} scripts ejecutados correctamente.")
 
+def run_scripts_from_json(example_file='example_scripts.json'):
+    """Run all scripts directly from the JSON file"""
+    if not os.path.exists(example_file):
+        print(f"El archivo de ejemplos '{example_file}' no existe.")
+        return
+    
+    with open(example_file, 'r', encoding='utf-8') as f:
+        scripts = json.load(f)
+    
+    success_count = 0
+    for script in scripts:
+        script_content = script.get('contenido', '')
+        script_num = script.get('numero', 'unknown')
+        script_title = script.get('titulo', 'Sin título')
+        try:
+            result = parse_and_interpret(script_content)
+            print_result(result, f"Script {script_num}: {script_title}")
+            success_count += 1
+        except Exception as e:
+            print(f"Error al ejecutar el script {script_num}: {str(e)}")
+    
+    print(f"\nEjecución completada: {success_count} de {len(scripts)} scripts ejecutados correctamente.")
+
 
 def extract_examples_to_files(example_file='example_scripts.json', output_dir='scripts'):
     """Extract individual scripts from the JSON file and save them as separate .dsl files"""
@@ -151,6 +174,7 @@ def main():
         print("  extract           - Extrae los scripts de ejemplo a archivos individuales")
         print("  run-all           - Ejecuta todos los scripts de ejemplo")
         print("  run NUMBER        - Ejecuta un script específico por número")
+        print("  run-json          - Ejecuta todos los scripts directamente desde el JSON")
         print("  interactive       - Modo interactivo para ejecutar comandos DSL")
         return
     
@@ -160,6 +184,8 @@ def main():
         extract_examples_to_files()
     elif command == 'run-all':
         run_example_scripts()
+    elif command == 'run-json':
+        run_scripts_from_json()
     elif command == 'run' and len(sys.argv) > 2:
         run_specific_script(sys.argv[2])
     elif command == 'interactive':

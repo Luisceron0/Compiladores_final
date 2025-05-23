@@ -57,7 +57,7 @@
   {
     "numero": 12,
     "titulo": "Empleados de TI con salario bajo",
-    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Tecnología\";\nfilter column \"salario\" < 2500;\naggregate count column \"id_empleado\";\nprint;"
+    "contenido": "load \"empleados.csv\";\nfilter column \"departamento\" == \"Tecnología\";\nfilter column \"salario\" < 3000;\naggregate count column \"id_empleado\";\nprint;"
   },
   {
     "numero": 13,
@@ -97,7 +97,7 @@
   {
     "numero": 20,
     "titulo": "Empleados con correo específico",
-    "contenido": "load \"empleados.csv\";\nfilter column \"correo\" == \"laura.gonzalez@empresa.com\";\nprint;"
+    "contenido": "load \"empleados.csv\";\nfilter column \"correo\" == \"laura.ortega@empresa.com\";\nprint;"
   },
   {
     "numero": 21,
@@ -122,7 +122,7 @@
   {
     "numero": 25,
     "titulo": "Empleados con nombres que contienen \"Ana\"",
-    "contenido": "load \"empleados.csv\";\nfilter column \"nombre\" == \"Ana González\";\naggregate count column \"id_empleado\";\nprint;"
+    "contenido": "load \"empleados.csv\";\nfilter column \"nombre\" contains \"Ana\";\naggregate count column \"id_empleado\";\nprint;"
   },
   {
     "numero": 26,
@@ -177,7 +177,7 @@
   {
     "numero": 36,
     "titulo": "Empleados con salario exacto",
-    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" == 3500;\naggregate count column \"id_empleado\";\nprint;"
+    "contenido": "load \"empleados.csv\";\nfilter column \"salario\" between 3400 and 3600;\naggregate count column \"id_empleado\";\nprint;"
   },
   {
     "numero": 37,
@@ -187,7 +187,7 @@
   {
     "numero": 38,
     "titulo": "Empleados contratados en fechas específicas",
-    "contenido": "load \"empleados.csv\";\nfilter column \"fecha_ingreso\" == \"2020-05-15\";\naggregate count column \"id_empleado\";\nprint;"
+    "contenido": "load \"empleados.csv\";\nfilter column \"fecha_ingreso\" == \"2019-06-20\";\naggregate count column \"id_empleado\";\nprint;"
   },
   {
     "numero": 39,
